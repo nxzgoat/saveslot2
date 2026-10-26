@@ -174,3 +174,8 @@ a.card:hover { border-color: var(--gold); transform: translateY(-2px); }
   .game-embed { flex-wrap: wrap; }
   .top nav { gap: 10px; font-size: .92rem; }
 }
+
+/* catálogo real */
+.games-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.game-tile { display: flex; gap: 12px; align-items: flex-start; }
+.game-tile .cover { width: 76px; height: 104px; }
